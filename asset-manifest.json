@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.092fa00f.css",
+    "main.js": "/portfolio/static/js/main.8f76e996.js",
+    "static/js/787.4b564826.chunk.js": "/portfolio/static/js/787.4b564826.chunk.js",
+    "static/media/modelo.jpg": "/portfolio/static/media/modelo.bb45f9d7080827a90059.jpg",
+    "static/media/curriculo.pdf": "/portfolio/static/media/curriculo.27e1244b768d55b844ec.pdf",
+    "static/media/insta.PNG": "/portfolio/static/media/insta.e7b957b255245d95da1c.PNG",
+    "static/media/wpz.png": "/portfolio/static/media/wpz.d1038eb1bce26b4dab85.png",
+    "static/media/instag.png": "/portfolio/static/media/instag.df662f9f0a92246a6464.png",
+    "static/media/eml.png": "/portfolio/static/media/eml.17e07230fb369af52046.png",
+    "static/media/HORNSEA.otf": "/portfolio/static/media/HORNSEA.d4602537ba4be512f271.otf",
+    "static/media/Kdam.ttf": "/portfolio/static/media/Kdam.e59b02a42579bc13a468.ttf",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.53bbbe7094fdd66e3b1e.png",
+    "static/media/Cheorcy-axmaJ.otf": "/portfolio/static/media/Cheorcy-axmaJ.35ace7a6e402db826407.otf",
+    "static/media/foto.jpg": "/portfolio/static/media/foto.39533c9de00e79d55574.jpg",
+    "static/media/iconemenu.png": "/portfolio/static/media/iconemenu.71064f3ca90b6b7fde24.png",
+    "static/media/face.png": "/portfolio/static/media/face.b1415231e1958f8d9ac8.png",
+    "static/media/FLARE.otf": "/portfolio/static/media/FLARE.13a7ef7cdd8b5acf00e9.otf",
+    "static/media/react.png": "/portfolio/static/media/react.435a7debd4af64935ea7.png",
+    "static/media/html.png": "/portfolio/static/media/html.176d656eb9c763504bf6.png",
+    "static/media/js.png": "/portfolio/static/media/js.789a33157ae6a64f7271.png",
+    "static/media/node.png": "/portfolio/static/media/node.8cfc0918aa5a4f0de0cf.png",
+    "static/media/ts.png": "/portfolio/static/media/ts.e09b4be9e358bcd12a5d.png",
+    "static/media/inst.png": "/portfolio/static/media/inst.cc1494dd9c448b2f3ddd.png",
+    "static/media/Kusanagi.otf": "/portfolio/static/media/Kusanagi.e9897a0e55d6890fd3b0.otf",
+    "index.html": "/portfolio/index.html",
+    "main.092fa00f.css.map": "/portfolio/static/css/main.092fa00f.css.map",
+    "main.8f76e996.js.map": "/portfolio/static/js/main.8f76e996.js.map",
+    "787.4b564826.chunk.js.map": "/portfolio/static/js/787.4b564826.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.092fa00f.css",
+    "static/js/main.8f76e996.js"
+  ]
+}
