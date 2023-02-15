@@ -1,0 +1,393 @@
+body {
+    overflow-x: hidden;
+    background-color: black;
+  }
+
+.itsme {
+    width: 100%;
+    height: 500px;
+}
+
+#textos{
+    width: 50%;
+    height: 250px;
+}
+
+.foto{
+    width: 100%;
+    height:  100%;
+    
+}
+@keyframes slide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+#one{
+    z-index: 1;
+    text-align: center;
+    width: 335px ;
+    height:60px;
+    background-color: rgb(48, 48, 48);
+    opacity: 0.9;
+    position: absolute;
+    left: 60px;
+    top: 110px;
+    font-family: Kusanagi;
+    font-size: 40PX;
+
+    animation: slide;
+    animation-duration: 2.5s;
+}
+
+#two{ 
+    z-index:1;
+    text-align: center;
+    width: 370px ;
+    height:60px;
+    background-color: rgb(48, 48, 48);
+    opacity: 0.9;
+    position: absolute;
+    left: 180px;
+    top: 190PX;
+    font-family: Kusanagi;
+    font-size: 40PX;
+
+    animation: slide;
+    animation-duration: 2.5s;
+}
+
+#three{
+    
+    z-index: 1;
+    text-align: center;
+    width: 450px ;
+    height:60px;
+    background-color: rgb(48, 48, 48);
+    opacity: 0.9;
+    position: absolute;
+    left: 300px;
+    top: 270PX;
+    font-family: Kusanagi;
+    font-size: 40PX;
+
+    
+    animation: slide;
+    animation-duration: 2.5s;
+}
+
+
+@media screen and (max-width: 480px) {
+    .itsme {
+      height: 330px;
+    }
+  
+   
+    
+    #textos{
+        width: 50%;
+        height: 250px;
+    }
+    
+    .foto{
+        width: 100%;
+        height:  100%;
+        
+    }
+    #one{
+        z-index: 1;
+        text-align: center;
+        width: 195px ;
+        height:30px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 20px;
+        top: 110px;
+        font-family: Kusanagi;
+        font-size: 20PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    @keyframes slide{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+    }
+    
+    #two{ 
+        z-index:1;
+        text-align: center;
+        width: 195px ;
+        height:30px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 100px;
+        top: 150PX;
+        font-family: Kusanagi;
+        font-size: 20PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    #three{
+        
+        z-index: 1;
+        text-align: center;
+        width: 225px ;
+        height:30px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 170px;
+        top: 190PX;
+        font-family: Kusanagi;
+        font-size: 20PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+}    
+
+
+
+@media screen and (max-width: 768px) {
+    .itsme {
+      height: 340px;
+    }
+  
+   
+    
+    #textos{
+        width: 50%;
+        height: 250px;
+    }
+    
+    .foto{
+        width: 100%;
+        height:  100%;
+        
+    }
+    #one{
+        z-index: 1;
+        text-align: center;
+        width: 195px ;
+        height:30px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 30px;
+        top: 110px;
+        font-family: Kusanagi;
+        font-size: 20PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    @keyframes slide{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+    }
+    
+    #two{ 
+        z-index:1;
+        text-align: center;
+        width: 195px ;
+        height:30px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 100px;
+        top: 150PX;
+        font-family: Kusanagi;
+        font-size: 20PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    #three{
+        
+        z-index: 1;
+        text-align: center;
+        width: 225px ;
+        height:30px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 170px;
+        top: 190PX;
+        font-family: Kusanagi;
+        font-size: 20PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+}    
+
+@media screen and (max-width: 349px){
+    #one{
+        z-index: 1;
+        text-align: center;
+        width: 170px ;
+        height:25px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: -10px;
+        top: 110px;
+        font-family: Kusanagi;
+        font-size: 18PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    @keyframes slide{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+    }
+    
+    #two{ 
+        z-index:1;
+        text-align: center;
+        width: 170px ;
+        height:25px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 30px;
+        top: 150PX;
+        font-family: Kusanagi;
+        font-size: 18PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    #three{
+        
+        z-index: 1;
+        text-align: center;
+        width: 205px ;
+        height:25px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 60px;
+        top: 190PX;
+        font-family: Kusanagi;
+        font-size: 18PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+}
+
+@media screen and (max-width: 406px){
+    #one{
+        z-index: 1;
+        text-align: center;
+        width: 170px ;
+        height:25px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 5px;
+        top: 110px;
+        font-family: Kusanagi;
+        font-size: 18PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    @keyframes slide{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+    }
+    
+    #two{ 
+        z-index:1;
+        text-align: center;
+        width: 170px ;
+        height:25px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 70px;
+        top: 150PX;
+        font-family: Kusanagi;
+        font-size: 18PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    #three{
+        
+        z-index: 1;
+        text-align: center;
+        width: 205px ;
+        height:25px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 110px;
+        top: 190PX;
+        font-family: Kusanagi;
+        font-size: 18PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px ){
+    #one{
+        z-index: 1;
+        text-align: center;
+        width: 290px ;
+        height:45px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 60px;
+        top: 120PX;
+        font-family: Kusanagi;
+        font-size: 32PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    @keyframes slide{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+    }
+    
+    #two{ 
+        z-index: 1;
+        text-align: center;
+        width: 355px ;
+        height:45px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 190px;
+        top: 200PX;
+        font-family: Kusanagi;
+        font-size: 32PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+    
+    #three{
+        
+        z-index: 1;
+        text-align: center;
+        width: 355px ;
+        height:45px;
+        background-color: rgb(48, 48, 48);
+        opacity: 0.9;
+        position: absolute;
+        left: 350px;
+        top: 280PX;
+        font-family: Kusanagi;
+        font-size: 32PX;
+        animation: slide;
+        animation-duration: 2.7s;
+    }
+
+}
