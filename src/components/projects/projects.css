@@ -1,0 +1,458 @@
+
+
+.principal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background-color: rgb(0, 0, 0);
+}
+
+.projeto{
+    width: 50%;
+    height: 450px;
+    background-color: blue;
+}
+
+.text {
+    width: 50%;
+    height: 450px;
+    background-color: brown;
+}
+
+#modelo{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text{
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+   background-color: rgb(34, 34, 34);
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    font-family: Kdam;
+    font-size: 40px;  
+}
+
+#textodois {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Kdam;
+}
+.buton-projects a {
+    color: white;
+  }
+.buton-projects{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.butaoprojects{
+    
+    width: 290px;
+    border: #fff;
+    border: 2px solid;
+    margin: 40px;
+    position: relative;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    font-weight: 400;
+}
+
+.butaoprojects:hover{
+    width: 310px;
+    transition: 0.5s;
+    letter-spacing: 0.25em;
+    background-color: rgb(242, 242, 245);
+    box-shadow: 0 0 15px;
+}
+
+.butaoprojects::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color:rgb(31,31,31);
+}
+
+.butaoprojects span{
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 349px){
+    #texto{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        font-family: Kdam;
+        font-size: 17px;  
+    }
+    #textodois {
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Kdam;
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 500px){
+    .butaoprojects{
+        height: 40px;
+        width: 150px;
+        border: #fff;
+        border: 2px solid;
+        margin: -5px;
+        position: relative;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(31, 31, 31);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 10px 30px;
+        font-weight: 400;
+    }
+    
+    .butaoprojects:hover{
+        width: 158px;
+        padding: 10px 20px;
+        height: 40px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(242, 242, 245);
+        box-shadow: 0 0 15px;
+    }
+    
+    
+    .principal{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .projeto{
+        width: 50%;
+        height: 330px;
+    }
+    
+    .text {
+        width: 50%;
+        height: 330px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #modelo{
+        width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    
+    
+    #texto{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        font-family: Kdam;
+        font-size: 16px;  
+    }
+    
+    #textodois {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Kdam;
+        font-size: 11.5px;
+    }
+    
+   
+   
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+    .butaoprojects{
+        height: 40px;
+        width: 150px;
+        border: #fff;
+        border: 2px solid;
+        margin: -5px;
+        position: relative;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(31, 31, 31);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 10px 10px;
+        font-weight: 400;
+    }
+    
+    .butaoprojects:hover{
+        width: 158px;
+        padding: 10px 20px;
+        height: 40px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(242, 242, 245);
+        box-shadow: 0 0 15px;
+    }
+    
+    
+    .principal{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .projeto{
+        width: 50%;
+        height: 330px;
+    }
+    
+    .text {
+        width: 50%;
+        height: 330px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #modelo{
+        width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    
+    
+    #texto{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        font-family: Kdam;
+        font-size: 19px;  
+    }
+    
+    #textodois {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Kdam;
+        font-size: 14.3px;
+    }
+    
+   
+   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .butaoprojects{
+        height: 40px;
+        width: 160px;
+        border: #fff;
+        border: 2px solid;
+        margin: -5px;
+        position: relative;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(31, 31, 31);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 10px 10px;
+        font-weight: 400;
+    }
+    
+    .butaoprojects:hover{
+        width: 190px;
+        padding: 10px 10px;
+        height: 40px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(242, 242, 245);
+        box-shadow: 0 0 15px;
+    }
+    
+    
+    .principal{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .projeto{
+        width: 50%;
+        height: 330px;
+    }
+    
+    .text {
+        width: 50%;
+        height: 330px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #modelo{
+        width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    
+    
+    #texto{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        font-family: Kdam;
+        font-size: 19px;  
+    }
+    
+    #textodois {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Kdam;
+        font-size: 18.5px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1380px){
+    .butaoprojects{
+        height: 40px;
+        width: 170px;
+        border: #fff;
+        border: 2px solid;
+        margin: -5px;
+        position: relative;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(31, 31, 31);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 10px 10px;
+        font-weight: 400;
+    }
+    
+    .butaoprojects:hover{
+        width: 210px;
+        padding: 10px 10px;
+        height: 40px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(242, 242, 245);
+        box-shadow: 0 0 15px;
+    }
+    
+    
+    .principal{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .projeto{
+        width: 50%;
+        height: 330px;
+    }
+    
+    .text {
+        width: 50%;
+        height: 330px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #modelo{
+        width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    
+    
+    #texto{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        font-family: Kdam;
+        font-size: 27px;  
+    }
+    
+    #textodois {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Kdam;
+        font-size: 21.2px;
+    }
+    
+    
+    
+    }
+    
+
+
+
+@media screen and (min-width: 1381px) and (max-width: 1636px){
+    #texto{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        font-family: Kdam;
+        font-size: 19px;  
+    }}
