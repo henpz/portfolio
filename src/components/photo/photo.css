@@ -24,6 +24,7 @@ body {
 }
 
 #one{
+    animation-delay: 3.2s;
     z-index: 1;
     text-align: center;
     width: 335px ;
@@ -37,10 +38,11 @@ body {
     font-size: 40PX;
 
     animation: slide;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
 }
 
 #two{ 
+    animation-delay: 3.2s;
     z-index:1;
     text-align: center;
     width: 370px ;
@@ -54,11 +56,11 @@ body {
     font-size: 40PX;
 
     animation: slide;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
 }
 
 #three{
-    
+    animation-delay: 3.2s;
     z-index: 1;
     text-align: center;
     width: 450px ;
@@ -73,7 +75,7 @@ body {
 
     
     animation: slide;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
 }
 
 
@@ -95,6 +97,7 @@ body {
         
     }
     #one{
+        animation-delay: 3.2s;
         z-index: 1;
         text-align: center;
         width: 195px ;
@@ -107,7 +110,7 @@ body {
         font-family: Kusanagi;
         font-size: 20PX;
         animation: slide;
-        animation-duration: 2.7s;
+        animation-duration: 3s;
     }
     
     @keyframes slide{
@@ -116,6 +119,7 @@ body {
     }
     
     #two{ 
+        animation-delay: 3.2s;
         z-index:1;
         text-align: center;
         width: 195px ;
@@ -128,11 +132,11 @@ body {
         font-family: Kusanagi;
         font-size: 20PX;
         animation: slide;
-        animation-duration: 2.7s;
+        animation-duration: 3s;
     }
     
     #three{
-        
+        animation-delay: 3.2s;
         z-index: 1;
         text-align: center;
         width: 225px ;
@@ -145,7 +149,7 @@ body {
         font-family: Kusanagi;
         font-size: 20PX;
         animation: slide;
-        animation-duration: 2.7s;
+        animation-duration: 3s;
     }
 }    
 
@@ -225,6 +229,7 @@ body {
 
 @media screen and (max-width: 349px){
     #one{
+        animation-delay: 3.2s;
         z-index: 1;
         text-align: center;
         width: 170px ;
@@ -246,6 +251,7 @@ body {
     }
     
     #two{ 
+        animation-delay: 3.2s;
         z-index:1;
         text-align: center;
         width: 170px ;
@@ -262,7 +268,7 @@ body {
     }
     
     #three{
-        
+        animation-delay: 3.2s;
         z-index: 1;
         text-align: center;
         width: 205px ;
@@ -281,6 +287,7 @@ body {
 
 @media screen and (max-width: 406px){
     #one{
+        animation-delay: 3.2s;
         z-index: 1;
         text-align: center;
         width: 170px ;
@@ -302,6 +309,7 @@ body {
     }
     
     #two{ 
+        animation-delay: 3.2s;
         z-index:1;
         text-align: center;
         width: 170px ;
@@ -318,7 +326,7 @@ body {
     }
     
     #three{
-        
+        animation-delay: 3.2s;
         z-index: 1;
         text-align: center;
         width: 205px ;
